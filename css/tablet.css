@@ -1,0 +1,127 @@
+@media (max-width: 992px) and (min-width: 501px) {
+  .section-title{
+    font-size: 20px;
+  }
+
+  #banner h1 {
+    font-size  : 36px;
+    font-weight: 400;
+  }
+
+  #banner span {
+    top: 150px;
+  }
+
+  .container .avatar {
+    display: none;
+  }
+
+  /* about */
+  .target {
+    padding: 20px 20px;
+  }
+  .personal-info {
+    padding: 20px 20px;
+  }
+
+   /* job-info */
+  .job-info {
+    grid-template-columns: 45% 45% ;
+    margin-top: 40px;
+  }
+  .job-info .job-info-col {
+    padding: 60px 10px;
+  }
+  .job-info .title {
+    display: inline;
+    position: relative;
+  }
+  .job-info .title i {
+    position: absolute;
+    top: -40px;
+    right: 0;
+  }
+  .job-info .title h1 {
+    margin-bottom: 30px;
+    font-size: 20px
+  }
+  .desc-title h5 {
+    font-size: 16px;
+  }
+
+  .content .hoppy {
+    display: grid;
+    grid-template-columns: 40px;
+  }
+  .content .hoppy i {
+    padding: 12px 10px;
+  }
+
+  /* certification */
+  .certificate {
+    margin-top: 240px !important;
+  }
+  .certificate-content {
+    gap: 30px;
+  }
+  .certificate-items {
+    grid-template-columns: 1fr;
+  }
+  .certificate-items img {
+    width: 226px;
+  }
+  .certificate-desc h4 {
+    font-size: 12px;
+  }
+  .certificate-desc p {
+    font-size: 10px;
+  }
+  .certificate-items:first-child {
+    position: relative;
+    border-right: none;
+  }
+  .certificate-items:first-child::after {
+    content: '';
+    position: absolute;
+    right: -26px;
+    height: 100%;
+    border-right: 1px solid #eae7e7;
+  }
+  .certificate::after {
+    top: 55%;
+  }
+
+  /* project */
+  .projects {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+  }
+  .project h2 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .overview {
+    display: grid;
+    grid-template-columns: 50px auto;
+    column-gap: 20px;
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+  .overview .time {
+    padding: 2px 11px;
+  }
+  .overview .role {
+    grid-column: 2/3;
+  }
+  .project-desc {
+    display: grid;
+    grid-template-columns: 42px auto;
+    padding: 10px 8px;
+    font-size: 10px;
+  }
+  .project-desc h5 {
+    font-size: 11px;
+  }
+ 
+}

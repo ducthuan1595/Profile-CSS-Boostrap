@@ -1,0 +1,88 @@
+.project-chapter {
+  border: 15px solid blue;
+}
+
+.project-chapter h2 {
+  margin: 15px 0;
+}
+
+.project-chapter h5 {
+  font-weight: 500;
+  font-size  : 16px;
+}
+
+.horizontal-line {
+  border-top: 1px solid #dee2e6;
+}
+
+.icon {
+  width     : 24px;
+  height    : 24px;
+  padding   : 1px;
+  margin-top: 5px;
+}
+
+.icon-number {
+  padding      : 1px;
+  color        : gold;
+  width        : 36px;
+  height       : 36px;
+  border       : 1px solid #333;
+  border-radius: 50%;
+}
+
+.item {
+  border-bottom: 1px dashed blue;
+}
+
+
+
+.goals {
+  border-bottom: 15px solid blue;
+  border-right  : 15px solid blue;
+}
+
+.scopes {
+  border-right  : 15px solid blue;
+}
+
+.team {
+  border-bottom: 15px solid blue;
+}
+
+.timeline {
+  border-left: 15px solid blue;
+}
+
+.btn-return {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+  padding: 4px 26px;
+}
+
+
+/* tablet && mobile */
+@media (max-width: 992px) {
+  .team {
+    border-left: 0;
+  }
+
+  .primary {
+  border-top: 15px solid blue;
+  border-bottom: 15px solid blue;
+  border-left: 0;
+  }
+
+  .timeline {
+    border-left: 0;
+  }
+
+  .goals {
+    border-right  : 0;
+  }
+
+  .scopes {
+    border-right  : 0;
+  }
+}
