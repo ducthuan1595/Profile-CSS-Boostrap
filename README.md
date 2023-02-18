@@ -1,6 +1,10 @@
 
 ```
 Assignment 02 Stater
+
+link online: https://asignment-3.vercel.app/index.html
+
+
 ├─ css
 │  ├─ font.css
 │  └─ style.css
